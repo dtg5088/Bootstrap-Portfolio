@@ -73,6 +73,11 @@ body {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
+   
+}
+
+.grid-container {
+
 }
 
 span{
@@ -119,20 +124,21 @@ span{
     float: left;
     padding-top: 20px;
     padding-left: 0px;
+    grid-auto-flow: column;
 }
 
 .picTitle {
     position: relative;
     background-color: #4aaaa5; 
     margin-top: 144px;
-    margin-right: 40px;
+    margin-right: 28px;
     margin-bottom: 45px;
     color: black;
-    height: 40px;
-    width: 270px; 
+    height: 40px; 
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     padding-bottom: 5px;
+    grid-auto-flow: column;
 }
 
 .picTitle p{
@@ -144,6 +150,7 @@ span{
 .images {
     height: 200px;
     width: 270px;
+    grid-auto-flow: column;
 }
 
 .inputF {
